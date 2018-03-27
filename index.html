@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="main_header">
+                <a href="/" title="Home" class="logo">
+                    <img src="images/batman.png" alt="Logo">
+                </a>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="onas.html" title="O nas">
+                                O nas
+                            </a>
+                        </li>
+                        <li class="offer">Oferta
+                            <ul class="submenu">
+                                <li>
+                                    <a href="samochody.html" title="Samochody">Samochody</a>
+                                </li>
+                                 <li>
+                                    <a href="motory.html" title="Motory">Motory</a>
+                                </li>
+                                 <li>
+                                    <a href="hulajnogi.html" title="Hulajnogi">Hulajnogi</a>
+                                </li>
+                            </ul>                         
+                        </li>
+                        <li>
+                            <a href="kontakt.html" title="Kontakt">
+                                Kontakt
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="main" class="container">
+       <div class="image">
+         <!--  <img src="images/bg.jpg" alt="obrazek"> -->
+       </div>
+       <article class="text">
+            <header>
+                <h2>Tytuł strony</h2>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. 
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+            </p>
+       </article>
+    </section>
+    <section id="main2" class="container">
+       <article class="text2">
+            <header>
+               <h2>Tytuł strony</h2>
+            </header>
+            <p><img src="images/bg.jpg" class="leftImage" alt="obrazek">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. 
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+            </p>
+       </article>
+    </section>
+    <section class="container">
+        <div class="formWrapper">
+            <form id="form" method="POST" action="?">
+                <fieldset>
+                    <legend>Registration form:</legend>
+                    <div class="fleft">
+                        <label>Wpisz imię:</label>
+                        <input type="text" name="name" placeholder="Wpisz imię" maxlength="10" autofocus>
+                        
+                        <label for="user_email">Wpisz email: </label>
+                        <input type="email" id="user_email" name="email" autocomplete="off" required>
+                       
+                         <label for="user_option">Wybierz opcję:
+                            <input type="checkbox" id="user_option" name="options">
+                         </label>
+                          <label for="list">Wybierz z listy:</label>
+                          <select id="list" name="option">
+                              <option value="one">Option 1</option>
+                              <option value="two">Option 2</option>
+                              <option value="three">Option 3</option>
+                          </select>
+                    </div>
+                    <div class="fright">
+                        <button type="submit">Wyślij</button>
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="small-box__wrapper">
+                <div class="small-box"></div>
+                <div class="small-box"></div>
+                <div class="small-box"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <p>&copy; 2015 Coder's Lab <span>Logo</span>
+        </p>
+    </footer>
+</body>
+</html>
